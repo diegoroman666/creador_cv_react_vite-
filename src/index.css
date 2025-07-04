@@ -1,0 +1,13 @@
+/* src/index.css */
+
+/* Estilos globales básicos para todo el cuerpo de la página */
+body {
+  font-family: 'Arial', sans-serif; /* Fuente básica legible */
+  line-height: 1.6; /* Espaciado entre líneas para mejor lectura */
+  color: #333; /* Color de texto general */
+  background-color: #f8f9fa; /* Un color de fondo suave para la página */
+  margin: 0; /* Elimina el margen predeterminado del body */
+  padding: 0; /* Elimina el padding predeterminado del body */
+}
+
+/* Puedes añadir más estilos globales aquí si lo deseas */
