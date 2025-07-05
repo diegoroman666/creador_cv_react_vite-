@@ -116,13 +116,13 @@ function App() {
     // MODIFICADO: Envuelve todo el contenido del CV con un div con id="cv-content"
     <div className="cv-wrapper">
        {/* NUEVO: Título y Subtítulo del Proyecto */}
-      <div className="project-header text-center my-4">
+      <div className="project-header text-center mb-4">
         <h1 className="display-4 text-primary">Creador de CV Interactivo</h1>
         <p className="lead text-secondary">Crea, Edita y Descarga tu Curriculum Vitae al instante</p>
       </div>
       <Container className="my-4">
         {/* Botón de descarga fuera del área de contenido del CV para que no aparezca en el PDF */}
-        <div className="d-flex justify-content-end mb-3">
+        <div className="d-flex justify-content-center mb-3">
           <Button id="download-btn" variant="primary" onClick={handleDownloadPDF}>
             Descargar CV (PDF)
           </Button>
