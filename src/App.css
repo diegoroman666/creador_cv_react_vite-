@@ -193,3 +193,22 @@ ul li {
 .hide-for-pdf {
     display: none !important;
 }
+
+/* NUEVO: Estilos para el encabezado del proyecto */
+.project-header {
+  padding: 30px 0; /* Espaciado interno superior e inferior */
+  margin-bottom: 20px; /* Margen inferior */
+  /* Puedes añadir un fondo o un borde si quieres que se destaque más */
+  /* background-color: #ffe0b2; */ /* Un naranja un poco más oscuro, si lo deseas */
+  /* border-bottom: 1px solid #ffcc80; */
+}
+
+.project-header h1 {
+  color: #E65100; /* Un naranja más oscuro para el título */
+  font-weight: 700; /* Más negrita */
+}
+
+.project-header p {
+  color: #FB8C00; /* Un naranja medio para el subtítulo */
+  font-size: 1.4rem;
+}
